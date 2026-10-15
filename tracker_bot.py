@@ -6,9 +6,9 @@ from telegram import Bot
 from telegram.constants import ParseMode
 
 # --- Конфигурация из переменных окружения Railway ---
-TONCENTER_API_KEY = os.environ.get("TONCENTER_API_KEY")
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
+TONCENTER_API_KEY = os.environ.get("79e30f846e2663e71cf530f614c821c41851215bf89e29e0dd76651a0ed90e99")
+TELEGRAM_BOT_TOKEN = os.environ.get("8971352251:AAG3IsDmakTp3IY8fSito8ngcU8BIDUnN5c")
+CHAT_ID = os.environ.get("7891556528")
 POLL_INTERVAL = int(os.environ.get("POLL_INTERVAL", 30))
 
 logging.basicConfig(level=logging.INFO)
